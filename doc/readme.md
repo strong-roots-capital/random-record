@@ -11,7 +11,7 @@ npm install random-record
 ## Use
 
 ``` typescript
-var randomRecord = require('random-record');
+var { randomRecord } = require('random-record');
 
 randomRecord()
 //=> { Time: 47, Open: 78, High: 139, Low: 56, Close: 89, Volume: 90550 }

@@ -15,7 +15,7 @@ Use
 ---
 
 ```typescript
-var randomRecord = require('random-record');
+var { randomRecord } = require('random-record');
 
 randomRecord()
 //=> { Time: 47, Open: 78, High: 139, Low: 56, Close: 89, Volume: 90550 }
@@ -41,7 +41,7 @@ randomRecord()
 
 ▸ **randomRecord**(): [Record](interfaces/record.md)
 
-*Defined in random-record.ts:43*
+*Defined in [random-record.ts:43](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L43)*
 
 Generate a random (and valid) Record.
 

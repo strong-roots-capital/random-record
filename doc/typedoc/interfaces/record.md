@@ -29,7 +29,7 @@ Copied definition of Record from package `talib-binding`.
 
 **● Close**: *`number`*
 
-*Defined in random-record.ts:33*
+*Defined in [random-record.ts:33](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L33)*
 
 Closing value of current Record.
 
@@ -40,7 +40,7 @@ ___
 
 **● High**: *`number`*
 
-*Defined in random-record.ts:25*
+*Defined in [random-record.ts:25](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L25)*
 
 Highest value observed during current Record.
 
@@ -51,7 +51,7 @@ ___
 
 **● Low**: *`number`*
 
-*Defined in random-record.ts:29*
+*Defined in [random-record.ts:29](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L29)*
 
 Lowest value observed during current Record.
 
@@ -62,7 +62,7 @@ ___
 
 **● Open**: *`number`*
 
-*Defined in random-record.ts:21*
+*Defined in [random-record.ts:21](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L21)*
 
 Opening value of current Record.
 
@@ -73,7 +73,7 @@ ___
 
 **● Time**: *`number`*
 
-*Defined in random-record.ts:17*
+*Defined in [random-record.ts:17](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L17)*
 
 Time that the current Record began, in units of milliseconds elapsed since January 1, 1970.
 
@@ -84,7 +84,7 @@ ___
 
 **● Volume**: *`number`*
 
-*Defined in random-record.ts:37*
+*Defined in [random-record.ts:37](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L37)*
 
 Volume observed in current Record.
 
