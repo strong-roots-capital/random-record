@@ -1,6 +1,6 @@
 {
   "name": "random-record",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generate a random talib-record",
   "main": "dist/random-record.js",
   "types": "dist/random-record.d.ts",
