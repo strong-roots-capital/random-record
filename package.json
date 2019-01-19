@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "mocha -r ts-node/register ./test/*.ts",
     "dev": "concurrently \"tsc -w\" \"nodemon -e 'ts' -x 'npm test || true'\"",
-    "typedoc": "typedoc"
+    "typedoc": "typedoc",
+    "watch:test": "nodemon -e 'ts json js' -x 'npm test || true'"
   },
   "husky": {
     "hooks": {
@@ -35,6 +36,7 @@
     "@types/node": "^10.12.18",
     "@types/random-int": "^1.0.0",
     "random-int": "^1.0.0",
+    "timeseries-record": "^1.0.0",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
