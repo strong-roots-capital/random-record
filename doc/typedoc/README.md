@@ -15,17 +15,13 @@ Use
 ---
 
 ```typescript
-var { randomRecord } = require('random-record');
+var randomRecord = require('random-record');
 
 randomRecord()
 //=> { Time: 47, Open: 78, High: 139, Low: 56, Close: 89, Volume: 90550 }
 ```
 
 ## Index
-
-### Interfaces
-
-* [Record](interfaces/record.md)
 
 ### Functions
 
@@ -39,13 +35,13 @@ randomRecord()
 
 ###  randomRecord
 
-▸ **randomRecord**(): [Record](interfaces/record.md)
+▸ **randomRecord**(): `Record`
 
-*Defined in [random-record.ts:43](https://github.com/strong-roots-capital/random-record/blob/01fed35/src/random-record.ts#L43)*
+*Defined in [random-record.ts:13](https://github.com/strong-roots-capital/random-record/blob/bb06f4d/src/random-record.ts#L13)*
 
 Generate a random (and valid) Record.
 
-**Returns:** [Record](interfaces/record.md)
+**Returns:** `Record`
 
 ___
 
