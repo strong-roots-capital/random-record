@@ -10,7 +10,7 @@ import Record from 'timeseries-record'
 /**
  * Generate a random (and valid) Record.
  */
-export default function randomRecord(): Record {
+function randomRecord(): Record {
 
     let open = randomInt(100)
     let high = randomInt(open, open + 100)
@@ -28,3 +28,5 @@ export default function randomRecord(): Record {
         Volume: volume
     }
 }
+
+export default randomRecord
